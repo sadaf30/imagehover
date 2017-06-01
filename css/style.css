@@ -3,3 +3,39 @@
 	padding: 0;
 	margin: 0;
 }
+.container{
+	width: 95%;
+	margin: 20px auto;
+	position: relative;
+
+	
+}
+img{
+	width: 100%;
+	min-width: 300px;
+	transition: .5s;
+
+
+}
+
+p{
+	position: absolute;
+	width: 80%;
+	bottom:10px;
+	padding: 10px;
+	font-size: 20px;
+	font-family: arial ;
+	color: #fff;
+	left: 10%;
+	background-color: lightpink;
+	opacity: 0;
+	transition: .5s;
+	
+}
+.container:hover img{
+	filter: brightness(50%);
+}
+
+.container:hover p{
+	opacity: 1;
+}
