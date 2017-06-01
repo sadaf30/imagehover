@@ -1,5 +1,3 @@
-# Basic web template
+# Image Hover Effects
 
-This is a basic web template for html projects.After cloning change origin with 
-$ git remote set-url origin ...
-(...placeholder to paste ur link)
+transitions and hover effects
